@@ -45,10 +45,11 @@ The analysis utilized the following 18 datasets, integrated and cleaned via SQL:
 ## 📂 Project Structure & Quick Links
 Access the core project files directly via the links below:
 
-*   **📊 Power BI Dashboard:** [Strava_Fitness-PBI.pbix](./Strava_Fitness-PBI.pbix)
+*   **📊 Power BI:** [Strava_Fitness-PBI.pbix](./Strava_Fitness-PBI.pbix)
 *   **🐍 Python Analysis (EDA):** [Strava_fitness_PYTHON Code.ipynb](./Strava_fitness_PYTHON%20Code.ipynb)
 *   **🗄️ SQL Scripts:** [Strava_fitness-SQL.sql](./Strava_fitness-SQL.sql)
-*   **📈 PDF Report:** [Strava_Fitness-PBI%20Dashboard.pdf](./Strava_Fitness-PBI%20Dashboard.pdf)
+*   **📈 Dashboard:** [Strava_Fitness-PBI%20Dashboard.pdf](./Strava_Fitness-PBI%20Dashboard.pdf)
+*   **📈 Report:** [Strava fitness Document](.Strava%20%26%20Bellabeat%20Wellness%20Technology%20Consumer%20Analysis.pdf)
 *   **📑 Master Dataset:** [Strava Full Merged Data.csv](./Strava%20Full%20Merged%20Data.csv)
 
 ---
