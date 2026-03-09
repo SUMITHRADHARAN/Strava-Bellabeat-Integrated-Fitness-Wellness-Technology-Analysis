@@ -104,7 +104,7 @@ Based on the synthesis of SQL queries, Python EDA, and Power BI visualizations, 
 ## 📑 Full Project Documentation
 For a detailed walkthrough of the methodology, business problem, and comprehensive findings, please refer to the official project document:
 
-👉 **[View Full Analysis Document](https://github.com/Strava-Bellabeat-Integrated-Fitness-Wellness-Technology-Analysis/blob/main/Document-Strava%20%26%20Bellabeat%20Wellness%20Technology%20Consumer%20Analysis.pdf)**
+👉 **[View Full Analysis Document](https://github.com/SUMITHRADHARAN/Strava-Bellabeat-Integrated-Fitness-Wellness-Technology-Analysis/blob/main/Document-Strava%20%26%20Bellabeat%20Wellness%20Technology%20Consumer%20Analysis.pdf)**
 
 ---
 
