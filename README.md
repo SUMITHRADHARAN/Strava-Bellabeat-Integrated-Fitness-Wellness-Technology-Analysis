@@ -1,7 +1,7 @@
 # Strava & Bellabeat: Wellness Technology Consumer Analysis
 
 <p align="center">
-  <img src="https://i0.wp.com" width="200" alt="Strava Logo">
+  <img src="https://i0.wp.com/bikewalkwichita.org/wp-content/uploads/2020/03/strava-logo-png-4.png?fit=1200%2C1198&ssl=1&w=640" width="200" alt="Strava Logo">
 </p>
 
 ## 📌 Project Overview
