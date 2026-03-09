@@ -1,7 +1,7 @@
 # Strava & Bellabeat: Wellness Technology Consumer Analysis
 
 <p align="center">
-  <img src="https://i0.wp.com/bikewalkwichita.org/wp-content/uploads/2020/03/strava-logo-png-4.png?fit=1200%2C1198&ssl=1&w=640" width="200" alt="Strava Logo">
+  <img src="https://i0.wp.com" width="200" alt="Strava Logo">
 </p>
 
 ## 📌 Project Overview
@@ -31,12 +31,25 @@ The analysis utilized the following 18 datasets, integrated and cleaned via SQL:
 *   **sleepDay_merged.csv**
 *   **weightLogInfo_merged.csv**
 
+🔗 **Dataset Source:** [FitBit Fitness Tracker Data (Kaggle)](https://www.kaggle.com)
+
 ---
 
 ## 🛠️ Technical Stack
 *   **Data Engineering:** SQL (Data Cleaning, Schema Design, Multi-table Joins)
 *   **Data Analysis:** Python (Pandas, NumPy, Seaborn, Matplotlib)
 *   **Data Visualization:** Power BI (DAX, Interactive Dashboards)
+
+---
+
+## 📂 Project Structure & Quick Links
+Access the core project files directly via the links below:
+
+*   **📊 Power BI Dashboard:** [Strava_Fitness-PBI.pbix](./Strava_Fitness-PBI.pbix)
+*   **🐍 Python Analysis (EDA):** [Strava_fitness_PYTHON Code.ipynb](./Strava_fitness_PYTHON%20Code.ipynb)
+*   **🗄️ SQL Scripts:** [Strava_fitness-SQL.sql](./Strava_fitness-SQL.sql)
+*   **📈 PDF Report:** [Strava_Fitness-PBI%20Dashboard.pdf](./Strava_Fitness-PBI%20Dashboard.pdf)
+*   **📑 Master Dataset:** [Strava Full Merged Data.csv](./Strava%20Full%20Merged%20Data.csv)
 
 ---
 
@@ -58,19 +71,18 @@ Performed deep-dive analysis to uncover hidden correlations in user movement.
 Developed an interactive dashboard focusing on health KPIs and physiological outcomes.
 *   **Key KPIs:** BMI (Avg. 25.21), Heart Rate (Avg. 78.60 BPM), and Sleep Duration (Avg. 419 mins).
 *   **Advanced DAX:** Calculated total aggregations for 41,709K steps and 247K total calories.
-*   **Visual Insights:**
-    *   **BMI Category Distribution:** Revealed that **96.23%** of the user base is classified as "Overweight."
-    *   **Activity Retention:** Identified a sharp activity volume decline from April (64.82%) to May (35.18%).
+*   **Visual Insights:** Revealed that **96.23%** of the user base is classified as "Overweight" with significant activity volume decline from April to May.
 
 ---
+
 ## 📊 Overall Business Insights
 Based on the synthesis of SQL queries, Python EDA, and Power BI visualizations, the following core business trends were identified:
 
 *   **The Sunday Engagement Gap:** Sundays represent the weekly low for activity (6,991 average steps), identifying a critical window for re-engagement marketing.
 *   **High Sedentary Load:** Users spend an average of **68.8%** of their day in a sedentary state, highlighting a major market opportunity for "active-break" features.
-*   **Physiological Profile:** Over **96%** of the user base is classified as overweight based on BMI data, suggesting that the primary consumer motivation is weight management rather than elite athletic training.
-*   **Retention Decay:** There is a **45.7% drop** in data logging consistency between the first and second months, indicating that the initial user "honeymoon phase" lasts approximately 30 days.
-*   **Sleep-Activity Correlation:** Users who achieved the 8-hour sleep goal showed a 12% higher step count the following day, proving that recovery features directly drive activity volume.
+*   **Physiological Profile:** Over **96%** of the user base is classified as overweight based on BMI data, suggesting that the primary consumer motivation is weight management.
+*   **Retention Decay:** There is a **45.7% drop** in data logging consistency between the first and second months, indicating a critical 30-day "honeymoon phase."
+*   **Sleep-Activity Correlation:** Users who achieved the 8-hour sleep goal showed a 12% higher step count the following day, proving that recovery features drive activity volume.
 
 ---
 
@@ -84,5 +96,5 @@ Based on the synthesis of SQL queries, Python EDA, and Power BI visualizations, 
 
 ## 🚀 How to Run
 1.  **SQL:** Execute scripts in the `/SQL` folder to initialize the database schema and views.
-2.  **Python:** Run the `Strava_Fitbness_Python.ipynb` notebook to see the data processing and EDA.
-3.  **Power BI:** Open the `Strava_Fitness_Dashboard.pbix` file to interact with the live report.
+2.  **Python:** Run the `Strava_fitness_PYTHON Code.ipynb` notebook to see the data processing and EDA.
+3.  **Power BI:** Open the `Strava_Fitness-PBI.pbix` file to interact with the live report.
